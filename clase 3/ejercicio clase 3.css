@@ -1,20 +1,77 @@
+div{
+    color: black;
+}
 
-
-.cuadrado{
+.cuadrado1 {
     width: 100px;
     height: 100px;
     padding: 10px;
     display: inline-block;
+    
 }
 
-.red{
- 
+.cuadrado2 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.cuadradoinvisible {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.cuadrado4 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+
+.hola1{
+    text-align: center;
+}
+
+.hola2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hola4{
+    text-align: center;
+     text-transform: uppercase;
+    
+}
+
+
+.red {
+
     background-color: red;
 }
 
 
-.white{
-  
-    background-color: white;
+.white {
 
+    background-color: rgb(255, 255, 255);
+
+}
+
+.opacidad1{
+
+    opacity: 1;
+}
+
+.opacidad05{
+
+    opacity: 0.5;
+}
+
+.opacidad01{
+
+    opacity: 0.1;
 }
