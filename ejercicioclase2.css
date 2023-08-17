@@ -1,0 +1,26 @@
+#links{
+    color: aliceblue;
+    background-color: black;
+     
+    height: 50px;
+    
+
+
+}
+
+.link{color: white;}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.contenedor2{
+ color:black;
+ background-color: rgb(141, 179, 133);
+}
