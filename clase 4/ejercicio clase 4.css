@@ -1,0 +1,19 @@
+.contenedorfoto {
+    width: 50px;
+    height: 100px;
+    padding: 10px;
+    display: inline-block;
+    background-size: 100%;
+    border: 5px solid darkblue;
+}
+.icono {
+    width: 50px;
+    height: 100px;
+    padding: 10px;
+    display: inline-block;
+    background-size: 100%;
+    border: 1px solid darkblue;
+}
+.contenedorprincipal {
+    border: 1px solid darkblue;
+}
