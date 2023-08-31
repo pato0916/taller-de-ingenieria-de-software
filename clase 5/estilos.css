@@ -1,8 +1,10 @@
-#contenedorprincipal{
+
+
+.contenedor{
     border-color: black;
     border-style: solid;
-    border: 2px;
+    border: 5px;
     width: 500px;
     height: 500px;
-    color: black;
+   
 }
