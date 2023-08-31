@@ -1,0 +1,8 @@
+#contenedorprincipal{
+    border-color: black;
+    border-style: solid;
+    border: 2px;
+    width: 500px;
+    height: 500px;
+    color: black;
+}
