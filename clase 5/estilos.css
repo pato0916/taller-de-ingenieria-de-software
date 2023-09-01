@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0px;
 }
 
-#contenedortodo{
+#contenedortodo {
     border: 1px;
     border-color: black;
     border-style: solid;
@@ -12,69 +12,71 @@
     z-index: 1;
 }
 
-img{
+img {
     width: 100%;
-    height:100%;
+    height: 100%;
     z-index: 2;
 }
 
-#contenedorcancion{
-    
+#contenedorcancion {
+
     background-color: cadetblue;
     width: 100%;
     height: 109px;
     z-index: 2;
 }
 
-#barra{
-z-index: 3;
-width: 100%;
-height:30px ;
-position: absolute;
-background-color: rgba(0, 0, 0, 0.377);
+#barra {
+    z-index: 3;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.377);
 
 
 }
 
-#iconos{
+#iconos {
     position: absolute;
     top: 4px;
     left: 260px;
     color: white;
 }
 
-#grupo{
-    
+#grupo {
+
     position: absolute;
     font-weight: bolder;
     margin: 25px;
     font-family: 'Source Code Pro', monospace;
 }
- #cancion{
+
+#cancion {
     position: absolute;
     margin-top: 60px;
     margin-left: 30px;
     font-family: 'Source Code Pro', monospace;
- }
+}
 
- #X{
+#X {
     position: absolute;
     z-index: 3;
     margin-top: 45px;
     margin-left: 30px;
-    color: white ;
+    color: white;
     display: inline-block;
- }
- #letras{
+}
+
+#letras {
     position: absolute;
     z-index: 3;
     margin-top: 45px;
     margin-left: 80px;
-    color: white ;
+    color: white;
     display: inline-block;
- }
+}
 
- #aleatorio{
+#aleatorio {
     position: absolute;
     z-index: 3;
     background-color: dimgrey;
@@ -86,16 +88,17 @@ background-color: rgba(0, 0, 0, 0.377);
     left: 310px;
     bottom: 420px;
     border-radius: 50%;
- }
-
- #icon{
-    color: white;
-    z-index: 3;
-    position: absolute;
-    left: 17px;
-    bottom: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
 }
 
+#aleatorio span {
+    color: white;
+    font-size: xx-large;
 
+
+}
 
