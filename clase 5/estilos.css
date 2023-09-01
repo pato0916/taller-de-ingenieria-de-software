@@ -1,8 +1,101 @@
-#contenedorprincipal{
+*{
+    margin: 0px;
+}
+
+#contenedortodo{
+    border: 1px;
     border-color: black;
     border-style: solid;
-    border: 2px;
-    width: 500px;
+    background-color: cadetblue;
+    width: 100%;
     height: 500px;
-    color: black;
+    z-index: 1;
 }
+
+img{
+    width: 100%;
+    height:100%;
+    z-index: 2;
+}
+
+#contenedorcancion{
+    
+    background-color: cadetblue;
+    width: 100%;
+    height: 109px;
+    z-index: 2;
+}
+
+#barra{
+z-index: 3;
+width: 100%;
+height:30px ;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.377);
+
+
+}
+
+#iconos{
+    position: absolute;
+    top: 4px;
+    left: 260px;
+    color: white;
+}
+
+#grupo{
+    
+    position: absolute;
+    font-weight: bolder;
+    margin: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+ #cancion{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-family: 'Source Code Pro', monospace;
+ }
+
+ #X{
+    position: absolute;
+    z-index: 3;
+    margin-top: 45px;
+    margin-left: 30px;
+    color: white ;
+    display: inline-block;
+ }
+ #letras{
+    position: absolute;
+    z-index: 3;
+    margin-top: 45px;
+    margin-left: 80px;
+    color: white ;
+    display: inline-block;
+ }
+
+ #aleatorio{
+    position: absolute;
+    z-index: 3;
+    background-color: dimgrey;
+    width: 60px;
+    height: 60px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+    left: 310px;
+    bottom: 420px;
+    border-radius: 50%;
+ }
+
+ #icon{
+    color: white;
+    z-index: 3;
+    position: absolute;
+    left: 17px;
+    bottom: 17px;
+    
+}
+
+
+
