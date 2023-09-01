@@ -21,3 +21,4 @@ function CambiarVerdePorClase(){
 function Reset(){
     document.getElementById("azul").style.backgroundColor="red";
 }
+

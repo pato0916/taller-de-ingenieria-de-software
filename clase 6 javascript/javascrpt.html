@@ -1,34 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <script src="funciones.js"></script>
     <title>Document</title>
     <style>
-        div{
+        div {
             background-color: red;
+            
             width: 100px;
             height: 100px;
+            display: flex;
         }
+
+        .cuadrado{ 
+            background-color:black;
+      
+
+        }
+
+        .transladar{
+            animation: transladar1 2000ms infinite ease-in-out;
+        }
+        .redimensionar{
+            animation: redimensionar1 2000ms infinite ease-in-out;
+        }
+        .deformar{
+            animation: deformar1 2000ms infinite ease-in-out;
+        }
+        .rotar{
+            animation: rotar1 2000ms infinite ease-in-out;
+        }
+        
+        @keyframes transladar1{
+            0%{transform: translate3d(0,0,0);}
+            30%{transform:translate3d(0,50%,0); }
+            70%{transform: translate3d(0,50%,0);}
+            100%{transform: translate3d(0,0,0);}
+        }
+
+        @keyframes redimensionar1{
+            0%{transform: scale(1)}
+            30%{transform: scale(1.2)}
+            70%{transform: scale(1.2)}
+            100%{transform: scale(1)}
+        }
+
+        @keyframes deformar1{
+            0%{transform:skew(0,0) ;}
+            30%{transform:skew(0,20deg) ;}
+            70%{transform:skew(0,50deg) ;}
+            100%{transform:skew(0,) ;}
+        }
+
+        @keyframes rotar1{
+            0%{transform: rotate3d(0,0,0,0);}
+            30%{transform: rotate3d(0,0,1,2700deg);}
+            70%{transform: rotate3d(0,0,0,2700deg);}
+            100%{transform: rotate3d(0,0,0,0);}
+        }
+
     </style>
 
 </head>
+
 <body>
     <input type="button" name="" value="llamar a hola mundo" onclick="hola();">
-   <br> <hr> <br><br><br>
-    <div id = "azul" class="verde">
+    <br>
+    <hr> <br><br><br>
+    <div id="azul" class="verde">
 
     </div>
     <br>
     <input type="button" value="azul por id" onclick="CambiarAzulPorId()">
     <input type="button" value="verde por clase" onclick="CambiarVerdePorClase()">
     <input type="button" value="Reset" onclick="Reset()">
+    <hr><br><br>
+
+
+
+
+    <div class="cuadrado transladar">
+    </div>
+    <br>
+    <div class="cuadrado redimensionar">
+    </div>
+    <br>
+    <div class="cuadrado deformar">
+    </div>
+    <br>
+    <div class="cuadrado rotar">
+    </div>
+    <br>
+    <input type="button" value="transladar" onclick="funciontransladar)">
+    <input type="button" value="redimensionar" onclick="funcionredimensinar()">
+    <input type="button" value="deformar" onclick="funciondeformar()">
+    <input type="button" value="rotar" onclick="funcionrotar()">
 </body>
+
 </html>
-
-
-
-
-
