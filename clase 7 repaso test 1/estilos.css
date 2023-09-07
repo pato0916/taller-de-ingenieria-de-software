@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+}
+#barraprincipal{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+#barraiconos{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 500px;
+    height: 60px;
+    position: relative;
+    left:  1200px;
+
+}
+
+#contenedorucscyletras{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 150px ;
+}
+
+#contenedorucsc{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 1000px;
+    height: 100px ;
+    position: relative;
+}
+#letras{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 50px ;
+}
+#contenedorfotos{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 500px;
+}
+
+#contenedorfinal{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 300px;
+}
