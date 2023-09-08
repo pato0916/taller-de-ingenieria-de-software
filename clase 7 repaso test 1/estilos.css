@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0px;
 }
-#barraprincipal{
+
+#barraprincipal {
     border: 1px;
     border-style: solid;
     border-color: black;
@@ -9,49 +10,88 @@
     height: 60px;
 }
 
-#barraiconos{
+#barraiconos {
     border: 1px;
     border-style: solid;
     border-color: black;
+    width: 800px;
+    height: 60px;
+    position: relative;
+    left: 900px;
+
+}
+
+
+
+#contenedorucscyletras {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+
+
+#contenedorucsc {
+    
+    width: 100%;
+    height: 100px;
+    position: relative;
+
+}
+
+.logoucsc img {
+    height: 100px;
+    position: relative;
+    padding-left: 20%;
+    display: inline-block;
+}
+
+#actualidad {
+
+    position: absolute;
+    height: 50px;
     width: 500px;
-    height: 60px;
+    display: inline-block;
+    left: 700px;
+    bottom: 20px;
+    color: red;
+}
+
+.letras {
+    width: 100%;
+    padding-left: 22%;
+    position: absolute;
+    text-decoration: none;
+    padding-top: 11px;
+}
+
+.letras a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    
+}
+
+
+#contenedorfotos {
+    width: 100%;
+    height: 470px;
+    background-color: rgba(196, 194, 191, 0.658);
+    padding-left: 20%;
+    padding-top: 40px;
+
+}
+
+.fotos img {
     position: relative;
-    left:  1200px;
+    width: 330px;
+    margin: 10px;
 
 }
 
-#contenedorucscyletras{
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    width: 100%;
-    height: 150px ;
-}
-
-#contenedorucsc{
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    width: 1000px;
-    height: 100px ;
-    position: relative;
-}
-#letras{
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    width: 100%;
-    height: 50px ;
-}
-#contenedorfotos{
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    width: 100%;
-    height: 500px;
-}
-
-#contenedorfinal{
+#contenedorfinal {
     border: 1px;
     border-style: solid;
     border-color: black;
