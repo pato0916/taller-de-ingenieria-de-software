@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+}
+
+.contenedorprincipal {
+    width: 1920PX;
+    height: 1080PX;
+    font-family: 'Roboto', sans-serif;
+}
+
+.barrasuperior {
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+
+}
+
+.barrasuperior img {
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 60px;
+}
+
+.cfoii div {
+    display: inline-block;
+    color: black;
+    margin: 15px;
+    position: relative;
+    left: 1150px;
+    bottom: 45px;
+
+}
+
+
+.logocinetitulos {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+}
+
+.logocinetitulos img {
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    top: 30px;
+    left: 60px;
+}
+
+.logocinetitulos {
+    position: relative;
+}
+
+#ccppcc {
+    position: relative;
+    left: 870px;
+    bottom: 20px;
+
+}
+
+.logocinetitulos P {
+    display: inline-block;
+    padding: 15px;
+
+}
+
+#contenedorcinemark {
+    display: inline-block;
+    background-color: black;
+    color: aliceblue;
+}
+
+.titulospeliculas {
+    width: 100%;
+    height: 180px;
+    background-color: lightgray;
+}
+
+.titulospeliculas div {
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.cpp {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+
+}
+
+.cpp div {
+    width: 600px;
+    height: 100%;
+    border-bottom: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    bottom: 15px;
+    left: 60px;
+
+}
+
+.cpp p {
+    position: relative;
+    top: 50px;
+}
+
+.cartelerasemanal {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 30px;
+
+}
+
+.cartelerasemanal h1 {
+    position: relative;
+    left: 60px;
+}
+
+.contenedorpeliculas {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 600px;
+    background-color: white(219, 0, 37);
+}
+.contenedorpeliculas p{
+    position: relative;
+    text-align: center;
+    width: 340px;
+    height: 30px;
+    background-color: red;
+    left: 70px;
+    color: white;
+}
+
+.fotospeliculas img{
+    width: 340px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    left: 60px ;
+    margin: 10px;
+}
