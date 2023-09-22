@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="contenedorprincipal bg-black">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-6 ">
+                    <img id="fotox" class="img-fluid rounded mx-auto d-block"
+                        src="https://pbs.twimg.com/profile_images/1683899100922511378/5lY42eHs_400x400.jpg" alt="">
+
+                </div>
+
+                <div id="contenedorderecha" class="col-lg-6 bg-black  ">
+                    <span class="fs-1 text-white"> Lo que está</span>
+                    <br>
+                    <span class="fs-1 text-white"> pasando ahora</span>
+                    <br><br>
+                    <span class="fs-3 text-white"> Unete Hoy</span>
+                    <br><br>
+                    <button type="button" class="btn btn-light rounded-pill botones"> <i class="fa-brands fa-google"
+                            style="color: #000000;"></i> Registrate con Google</button>
+                    <br><br>
+                    <button type="button" class="btn btn-light rounded-pill botones"> <i class="fa-brands fa-apple"
+                            style="color: #000000;"></i> Registrarse con Apple</button>
+                    <br><br>
+                    <span id="O" class="text-white "> o </span>
+                    <br><br>
+                    <button type="button" class="btn btn-primary rounded-pill botones">Crear cuenta</button>
+                    <br>
+                    <span class="text-white ">Al registrate, aceptas los </span> <span class="text-primary"> Terminos de
+                        servicio</span> <span class="text-white">y la</span> <span class="text-primary">Politica <br> de
+                        privacidad,</span>
+                    <span class="text-white">incluida la politica de </span> <span class="text-primary">Uso de
+                        Cookies</span>
+                    <br><br><br>
+                    <span class="fs-5 text-white">Ya tienes una cuenta?</span>
+                    <br><br>
+                    <button type="button" class="btn btn-outline-primary rounded-pill botones" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Iniciar sesion
+                    </button>
+
+
+                    <div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                            <div class="modal-content ">
+
+                                <div class="modal-header bg-black ">
+                                    <h1 class="modal-title fs-5 rounded mx-auto d-block"> <i
+                                            class="fa-brands fa-x-twitter " style="color: #ffffff;"></i></h1>
+                                    <button type="button" class="btn-close-dark " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body bg-black ">
+                                    <span class=" fs-2 text-white iniciasesion "> Inicia sesion en X</span>
+                                    <br><br>
+                                    <button type="button" class="btn btn-light  rounded-pill rounded mx-auto d-block ">
+                                        <i class="fa-brands fa-google" style="color: #000000;"></i> Iniciar sesion con
+                                        Google</button>
+                                    <br>
+                                    <button type="button" class="btn btn-light rounded-pill rounded mx-auto d-block ">
+                                        <i class="fa-brands fa-apple" style="color: #000000;"></i> Iniciar sesion con
+                                        Apple</button>
+                                    <span id="OO" class="text-white "> o </span>
+                                    <br>
+
+                                    <div class="form-floating mb-3 b ">
+                                        <input type="email"
+                                            class="text-center form-control bg-black text-white rounded-pill rounded mx-auto d-block botonesemergentes">
+                                        <label class="rounded mx-auto d-block" for="floatingInput">Telefono, correo electronico o nom..</label>
+                                    </div>
+
+                                    <button type="button"
+                                        class="text-center form-control rounded-pill rounded mx-auto d-block botonesemergentes">Siguiente</button>
+                                    <br>
+                                    <button type="button"
+                                        class="btn btn-outline-light text-center form-control rounded-pill rounded mx-auto d-block botonesemergentes">Olvidaste
+                                        la contrasenia?</button>
+                                    <br><br>
+                                    <div class="notienescuenta">
+                                        <span class="text-white-50 ">No tienes una cuenta </span> <span
+                                            class="text-primary">Registrate</span>
+                                    </div><br><br><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br><br><br><br><br>
+        <span class="text-white p-2 letrasabajo">Informacion </span>
+        <span class="text-white p-2 letrasabajo">Centro de Ayuda </span>
+        <span class="text-white p-2 letrasabajo">Conficiones de Servicio </span>
+        <span class="text-white p-2 letrasabajo">Politica de Privacidad </span>
+        <span class="text-white p-2 letrasabajo">Policitca de cookies </span>
+        <span class="text-white p-2 letrasabajo">Accesibilidad </span>
+        <span class="text-white p-2 letrasabajo">Informacion de anuncios </span>
+        <span class="text-white p-2 letrasabajo">Blog </span>
+        <span class="text-white p-2 letrasabajo">Estado Empleos </span>
+        <span class="text-white p-2 letrasabajo">Recursos para marcas </span>
+        <span class="text-white p-2 letrasabajo">Publicidad </span>
+        <span class="text-white p-2 letrasabajo">Marketing </span>
+        <span class="text-white p-2 letrasabajo">X para empresas </span>
+        <span class="text-white p-2 letrasabajo">Desarrolladores </span>
+        <span class="text-white p-2 letrasabajo">Guia </span>
+        <br>
+        <span class="text-white p-2 text-center letrasabajo">Configuracion </span>
+        <span class="text-white p-2 text-center letrasabajo">2023 X Corp. </span>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
