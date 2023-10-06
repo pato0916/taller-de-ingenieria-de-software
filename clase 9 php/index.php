@@ -22,11 +22,10 @@ $respuesta = mysqli_query($conexion, $consulta);
         <div class="container text-center">
             <div class="row">
                 <div class="col">
-
+                    <form action="guardar.php" method="POST">
                     <div class="input-group mb-2">
                         <span class="input-group-text" id="basic-addon1">NOMBBRE</span>
-                        <input type="text" name="nombre" class="form-control" placeholder="logonissan"
-                            aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" name="nombre" class="form-control" placeholder="logonissan">
                     </div>
 
                     <div class="input-group mb-2">
@@ -42,11 +41,10 @@ $respuesta = mysqli_query($conexion, $consulta);
 
                     <div class="input-group mb-2">
                         <span class="input-group-text" id="basic-addon1">LOGO</span>
-                        <input type="text" class="form-control" placeholder="nissan" aria-label="Username"
-                            aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="nissan" name="logo" >
 
                     </div>
-                    <input class="btn btn-primary" type="button" value="subir">
+                    <input class="btn btn-primary" type="submit" value="Guardar">
                 </div>
                 
                 <div class="col">
