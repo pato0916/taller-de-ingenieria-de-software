@@ -1,5 +1,5 @@
 <?php
 
-    $conexion = mysqli_connect("localhost","root","","respuestos")
+    $conexion = mysqli_connect("localhost","root","","marcas")
 
 ?>
